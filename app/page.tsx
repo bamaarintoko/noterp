@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import HeaderMobile from "@/components/HeaderMobile";
 import PricingTab from "@/components/PricingTab";
 import { subscriptionTiers } from "@/lib/constanta";
-import { Oswald, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Image from "next/image";
 const poppins = Poppins({
 	weight: ['400', '500', '700'], // Specify font weights
