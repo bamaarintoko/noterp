@@ -47,7 +47,7 @@ export default function Home() {
 				<div className="hidden relative lg:block xl:block lg:h-[50vh] xl:h-[50vh] 2xl:h-[40vh] ">
 
 					<div className=" hidden lg:block xl:block left-16 bottom-0 absolute">
-						<p className={`${poppins.className} text-[20px] xl:text-[24px] ml-auto max-w-md text-center italic`}>"Aenean elementum turpis felis, at convallis leo dictum at. Fusce."
+						<p className={`${poppins.className} text-[20px] xl:text-[24px] ml-auto max-w-md text-center italic`}>&quot;Aenean elementum turpis felis, at convallis leo dictum at. Fusce.&quot;
 
 						</p>
 						<Image
@@ -136,7 +136,7 @@ export default function Home() {
 					</div>
 					<div className="relative z-10 mb-10">
 
-						<p className={`${poppins.className} text-center`}>"Aenean elementum turpis felis, at convallis leo dictum at. Fusce."
+						<p className={`${poppins.className} text-center`}>&quot;Aenean elementum turpis felis, at convallis leo dictum at. Fusce.&quot;
 
 						</p>
 					</div>
@@ -158,7 +158,7 @@ export default function Home() {
 
 					</div>
 					{/* CONTACTUS */}
-					<div id="contactusmob" className="flex flex-col gap-4 px-4">
+					<div id="contactusmob" className="flex flex-col gap-4 px-4 pt-4">
 						<ContactUs />
 					</div>
 
@@ -186,7 +186,7 @@ export default function Home() {
 					</div>
 					<div className="flex flex-1 ">
 						<div className=" hidden md:flex lg:hidden xl:hidden justify-center flex-col items-center  z-10">
-							<p className={`${poppins.className} text-[18px]  ml-auto max-w-md text-center italic`}>"Aenean elementum turpis felis, at convallis leo dictum at. Fusce."
+							<p className={`${poppins.className} text-[18px]  ml-auto max-w-md text-center italic`}>&quot;Aenean elementum turpis felis, at convallis leo dictum at. Fusce.&quot;
 
 							</p>
 							<Image
