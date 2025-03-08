@@ -7,12 +7,7 @@ import PricingTab from "@/components/PricingTab";
 import { subscriptionTiers } from "@/lib/constanta";
 import { Oswald, Poppins } from "next/font/google";
 import Image from "next/image";
-export const oswald = Oswald({
-	weight: ['400', '500', '700'], // Specify font weights
-	subsets: ['latin'], // Specify subsets (e.g., 'latin', 'latin-ext')
-	display: 'swap', // Control font-display
-});
-export const poppins = Poppins({
+const poppins = Poppins({
 	weight: ['400', '500', '700'], // Specify font weights
 	subsets: ['latin'], // Specify subsets (e.g., 'latin', 'latin-ext')
 	display: 'swap', // Control font-display
