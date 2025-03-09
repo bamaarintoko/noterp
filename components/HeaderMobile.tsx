@@ -52,7 +52,7 @@ export default function HeaderMobile() {
         <div>
             {/* mobile */}
             <div className=" block md:hidden lg:hidden xl:hidden" >
-                <div className="p-2.5">
+                <div className={`p-2.5 transition-colors duration-500 ${isAtTop ? "bg-transparent" : "bg-white"}`}>
 
 
                     <div onClick={handleDrawer} className="cursor-pointer w-7 h-7 flex items-center justify-center">
