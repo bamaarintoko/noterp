@@ -102,7 +102,7 @@ export default function HeaderMobile() {
                                                     <p className={textMenuClass}>CONTACT</p>
                                                 </div>
                                                 <Link href="/auth/login">
-                                                    <div className="border border-sky-400 rounded-md px-8 py-1 self-start">
+                                                    <div className="border border-sky-400 rounded-md px-8 py-1 inline-block">
 
                                                         <p className={`${oswald.className} text-sky-400`}>LOGIN</p>
                                                     </div>
@@ -139,7 +139,7 @@ export default function HeaderMobile() {
                 </div>
                 <div>
                     <Link href="/auth/login">
-                        <div className="border border-sky-400 rounded-md px-8 py-1">
+                        <div className="border border-sky-400 rounded-md px-8 py-1 inline-block">
 
                             <p className={`${oswald.className} text-sky-400`}>LOGIN</p>
                         </div>
